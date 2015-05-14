@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?><ArrayOfDialogPartData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+<DialogPartData active="true" dialogID="0" show="true" isName="false" isBGM="false" isSE="false" isVoice="false" isAnim="false" isClearMessageAfter="true" textBoxID="0" actionID="Dialog">
+	<toggle>false</toggle><nameText />
+	<dialogText>メッセージのターゲットを元に戻しました。</dialogText>
+	<scene>
+		<sceneName />
+		<withFade>false</withFade>
+		<clearSceneAndLoad>true</clearSceneAndLoad>
+	</scene>
+	<enterActorEntries />
+	<exitActorEntries />
+	<enterEventData />
+	<exitEventData />
+</DialogPartData>
+<DialogPartData active="true" dialogID="1" show="true" isName="false" isBGM="false" isSE="false" isVoice="false" isAnim="false" isClearMessageAfter="false" textBoxID="0" actionID="Dialog">
+	<toggle>false</toggle>
+	<nameText />
+	<dialogText>選択肢表示もできます。</dialogText>
+	<bgmAudioKey />
+	<seAudioKey />
+	<voiceAudioKey />
+	<bgmAudioID>0</bgmAudioID>
+	<seAudioID>0</seAudioID>
+	<voiceAudioID>0</voiceAudioID>
+	<scene>
+		<sceneName />
+		<withFade>false</withFade>
+		<clearSceneAndLoad>true</clearSceneAndLoad>
+	</scene>
+	<enterActorEntries />
+	<exitActorEntries />
+	<enterEventData />
+	<exitEventData />
+</DialogPartData>
+</ArrayOfDialogPartData>
