@@ -1,0 +1,8 @@
+[image_new name=deer path=image/npc/NPC_Deer.png]
+
+[image_show name=deer pos=center layer=bg]
+
+[cm]
+
+生命是一切的开始[r]
+也是一切的终结.[p]

@@ -9,9 +9,7 @@
 #define  _APP_DELEGATE_H_
 
 #include "cocos2d.h"
-#include "../include/Live2D.h"
 
-using namespace live2d;
 /**
 @brief    The cocos2d Application.
 

@@ -6,11 +6,7 @@
  *  (c) Live2D Inc. All rights reserved.
  */
 #include "AppDelegate.h"
-#include "TestScene.h"
-
-#include "L2DPart\LAppLive2DManager.h"
-
-using namespace live2d;
+#include "Debug\TestScene.h"
 
 USING_NS_CC;
 
@@ -19,8 +15,6 @@ AppDelegate::AppDelegate() {
 
 AppDelegate::~AppDelegate() 
 {
-	LAppLive2DManager* Live2DMgr=LAppLive2DManager::getInstance();
-	Live2DMgr->releaseInstance();
 }
 
 //if you want a different context,just modify the value of glContextAttrs
@@ -40,11 +34,11 @@ bool AppDelegate::applicationDidFinishLaunching() {
     auto glview = director->getOpenGLView();
     if(!glview) {
 		glview = GLViewImpl::create("Galgame Demo");
-		//glview->setFrameSize(960,640);
+		//glview->setFrameSize(1080,1920);
         director->setOpenGLView(glview);
     }
 	
-	glview->setDesignResolutionSize(750, 1134, ResolutionPolicy::SHOW_ALL);
+	glview->setDesignResolutionSize(768, 1024, ResolutionPolicy::SHOW_ALL);
     // turn on display FPS
     director->setDisplayStats(true);
 	
@@ -53,15 +47,12 @@ bool AppDelegate::applicationDidFinishLaunching() {
 
 	//set resource search path
 	this->setResourcePath();
-
-	//Live2D
-	LAppLive2DManager* Live2DMgr=LAppLive2DManager::getInstance();
 	
     // create a scene. it's an autorelease object
    // auto scene = SampleScene::createScene();
 	
 	//for engine test
-	auto scene = TestScene::createScene();
+	auto scene = SNovel::TestScene::createScene();
     // run
     director->runWithScene(scene);
 
