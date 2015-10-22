@@ -1,2 +1,2 @@
-# VisualNovel-X
-仿照Unity上的VisualNovelTookit插件制作的cocos2dx版本
+# SNovel-X
+SNovel in cocos2dx version
